@@ -172,7 +172,8 @@ class ScenarioData
 	class Header
 	{
 		gameType="RPG";
-		maxPlayers=90;
+		minPlayers=1;
+		maxPlayers=126;
 	};
 	wreckLimit=3;
 	wreckRemovalMinTime=60;
@@ -742,7 +743,7 @@ class Mission
 			text="Car Shop";
 			type="c_car";
 			colorName="ColorWhite";
-			angle=359.89108;
+			angle=359.89102;
 			id=35;
 			atlOffset=1.007965e+021;
 		};
@@ -1244,7 +1245,7 @@ class Mission
 			position[]={6871.2402,-1.3739956e-023,7277.4551};
 			name="civ_air_1";
 			type="Empty";
-			angle=42.104988;
+			angle=42.10498;
 			id=105;
 			atlOffset=-2.6600001;
 		};
@@ -1406,7 +1407,7 @@ class Mission
 			text="General Store";
 			type="c_unknown";
 			colorName="ColorGreen";
-			angle=358.18951;
+			angle=358.18948;
 			id=122;
 			atlOffset=7.092978e+033;
 		};
@@ -1430,7 +1431,7 @@ class Mission
 			text="Tanoa DMV";
 			type="c_unknown";
 			colorName="ColorBlue";
-			angle=358.69189;
+			angle=358.69183;
 			id=124;
 			atlOffset=-3.0599999;
 		};
@@ -1952,7 +1953,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=78.675369;
 			id=182;
-			atlOffset=184.52704;
+			atlOffset=188.75182;
 		};
 		class Item137
 		{
@@ -2134,7 +2135,7 @@ class Mission
 			text="Tanoa S&R East Outpost";
 			type="loc_Hospital";
 			colorName="ColorRed";
-			angle=359.91583;
+			angle=359.9158;
 			id=198;
 			atlOffset=-4.6900001;
 		};
@@ -2154,7 +2155,7 @@ class Mission
 			position[]={11723.736,-1.6192816e-031,3006.668};
 			name="med_car_2";
 			type="Empty";
-			angle=220.78096;
+			angle=220.78093;
 			id=200;
 			atlOffset=-4.6900001;
 		};
@@ -2663,6 +2664,7 @@ class Mission
 			};
 			id=550;
 			type="Land_Atm_02_F";
+			atlOffset=0.10924172;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -16244,7 +16246,7 @@ class Mission
 			text="Medical Clinic";
 			type="loc_Hospital";
 			colorName="ColorRed";
-			angle=359.91589;
+			angle=359.91583;
 			id=1587;
 			atlOffset=-3.0599999;
 		};
@@ -16522,7 +16524,7 @@ class Mission
 			position[]={3881.405,-1.0462164e-020,13395.604};
 			name="kart_shop_2";
 			type="Empty";
-			angle=326.86392;
+			angle=326.86386;
 			id=1617;
 			atlOffset=-10.809134;
 		};
