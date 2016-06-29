@@ -7,7 +7,7 @@
     Knocks out the target.
 */
 private "_target";
-_target = param [0,objNull,[objNull]];
+_target = param [0,ObjNull,[ObjNull]];
 
 //Error checks
 if (isNull _target) exitWith {};

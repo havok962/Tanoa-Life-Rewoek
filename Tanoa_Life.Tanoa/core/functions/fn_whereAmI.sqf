@@ -1,5 +1,5 @@
 /*
-    File: fn_whereAmI.sqf
+    File: fn_mine.sqf
     Author: Dardo
 
     Description:

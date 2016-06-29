@@ -30,7 +30,7 @@ _unit setVariable ["steam64id",(getPlayerUID player),true]; //Set the UID.
 
 //Setup our camera view
 life_deathCamera  = "CAMERA" camCreate (getPosATL _unit);
-showCinemaBorder true;
+showCinemaBorder TRUE;
 life_deathCamera cameraEffect ["Internal","Back"];
 createDialog "DeathScreen";
 life_deathCamera camSetTarget _unit;
@@ -58,16 +58,6 @@ _unit spawn {
     round(_maxTime - time) <= 0 || isNull _this};
     _RespawnBtn ctrlEnable true;
     _Timer ctrlSetText localize "STR_Medic_Respawn_2";
-};
-
-_unit spawn {
-    private["_requestBtn","_requestTime"];
-    disableSerialization;
-    _requestBtn = ((findDisplay 7300) displayCtrl 7303);
-    _requestBtn ctrlEnable false;
-    _requestTime = time + 5;
-    waitUntil {round(_requestTime - time) <= 0 || isNull _this};
-    _requestBtn ctrlEnable true;
 };
 
 [] spawn life_fnc_deathScreen;
@@ -136,7 +126,7 @@ CASH = 0;
 life_is_alive = false;
 
 [] call life_fnc_hudUpdate; //Get our HUD updated.
-[player,life_settings_enableSidechannel,playerSide] remoteExecCall ["TON_fnc_manageSC",RSERV];
+[player,life_settings_enableSidechannel,playerSide] remoteExecCall ["TON_fnc_managesc",RSERV];
 
 [0] call SOCK_fnc_updatePartial;
 [3] call SOCK_fnc_updatePartial;

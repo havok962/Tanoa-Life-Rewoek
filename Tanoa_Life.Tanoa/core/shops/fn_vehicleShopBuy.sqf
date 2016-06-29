@@ -81,7 +81,6 @@ if (((life_veh_shop select 0) == "med_air_hs")) then {
 
 if (_spawnPoint isEqualTo "") exitWith {hint localize "STR_Shop_Veh_Block";closeDialog 0;};
 CASH = CASH - _purchasePrice;
-[0] call SOCK_fnc_updatePartial;
 hint format[localize "STR_Shop_Veh_Bought",getText(configFile >> "CfgVehicles" >> _className >> "displayName"),[_purchasePrice] call life_fnc_numberText];
 
 //Spawn the vehicle and prep it.
@@ -141,12 +140,13 @@ if (_mode) then {
 
 if (LIFE_SETTINGS(getNumber,"player_advancedLog") isEqualTo 1) then {
     if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
-        advanced_log = format [localize "STR_DL_AL_boughtVehicle_BEF",_className,[_purchasePrice] call life_fnc_numberText,[CASH] call life_fnc_numberText,[BANK] call life_fnc_numberText];
+        advanced_log = format ["bought vehicle %1 for $%2. On Hand Cash: $%3  Bank Balance: $%4",_className,[_purchasePrice] call life_fnc_numberText,[CASH] call life_fnc_numberText,[BANK] call life_fnc_numberText];
     } else {
-        advanced_log = format [localize "STR_DL_AL_boughtVehicle",profileName,(getPlayerUID player),_className,[_purchasePrice] call life_fnc_numberText,[CASH] call life_fnc_numberText,[BANK] call life_fnc_numberText];
+        advanced_log = format ["%1 - %2 bought vehicle %3 for $%4. On Hand Cash: $%5  Bank Balance $%6",profileName,(getPlayerUID player),_className,[_purchasePrice] call life_fnc_numberText,[CASH] call life_fnc_numberText,[BANK] call life_fnc_numberText];
     };
     publicVariableServer "advanced_log";
 };
 
+[0] call SOCK_fnc_updatePartial;
 closeDialog 0; //Exit the menu.
 true;

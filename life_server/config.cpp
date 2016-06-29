@@ -5,7 +5,7 @@ class CfgPatches {
         weapons[] = {};
         requiredAddons[] = {"A3_Data_F","A3_Soft_F","A3_Soft_F_Offroad_01","A3_Characters_F"};
         fileName = "life_server.pbo";
-        author = "Tonic";
+        author[]= {"Tonic"};
     };
 };
 
@@ -67,6 +67,7 @@ class CfgFunctions {
             class vehicleDelete {};
             class spikeStrip {};
             class transferOwnership {};
+            class logIt {};
             class federalUpdate {};
             class chopShopSell {};
             class clientDisconnect {};
@@ -75,7 +76,6 @@ class CfgFunctions {
             class keyManagement {};
             class vehicleUpdate {};
             class recupkeyforHC {};
-            class handleBlastingCharge {};
         };
 
         class Housing {

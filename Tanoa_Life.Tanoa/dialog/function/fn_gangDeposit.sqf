@@ -1,6 +1,5 @@
 #include "..\..\script_macros.hpp"
 /*
-    File: fn_gangDeposit.sqf
     Author: Bryan "Tonic" Boardwine
 
     Description:
@@ -8,7 +7,7 @@
 */
 private["_value"];
 _value = parseNumber(ctrlText 2702);
-group player setVariable ["gbank_in_use_by",player,true];
+group player setVariable["gbank_in_use_by",player,true];
 
 //Series of stupid checks
 if (_value > 999999) exitWith {hint localize "STR_ATM_GreaterThan";};
@@ -34,9 +33,9 @@ hint format[localize "STR_ATM_DepositSuccessG",[_value] call life_fnc_numberText
 
 if (LIFE_SETTINGS(getNumber,"player_moneyLog") isEqualTo 1) then {
     if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
-        money_log = format [localize "STR_DL_ML_depositeGang_BEF",_value,[_gFund] call life_fnc_numberText,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+        money_log = format ["deposited $%1 into their gang bank. Gang Bank Balance: $%2  Bank Balance: $%3  On Hand Balance: $%4",_value,[_gFund] call life_fnc_numberText,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
     } else {
-        money_log = format [localize "STR_DL_ML_depositeGang",profileName,(getPlayerUID player),_value,[_gFund] call life_fnc_numberText,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+        money_log = format ["%1 - %2 deposited $%3 into their gang bank. Gang Bank Balance: $%4  Bank Balance: $%5  On Hand Balance: $%6",profileName,(getPlayerUID player),_value,[_gFund] call life_fnc_numberText,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
     };
     publicVariableServer "money_log";
 };

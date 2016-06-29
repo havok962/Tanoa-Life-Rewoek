@@ -68,7 +68,7 @@ switch (true) do {
     };
 
     case (_item isEqualTo "fuelEmpty"): {
-        [] spawn life_fnc_jerryCanRefuel;
+        [] spawn life_fnc_jerrycanRefuel;
         closeDialog 0;
     };
 

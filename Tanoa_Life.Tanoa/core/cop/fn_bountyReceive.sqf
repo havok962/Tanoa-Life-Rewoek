@@ -17,4 +17,3 @@ if (_val == _total) then {
 };
 
 BANK = BANK + _val;
-[1] call SOCK_fnc_updatePartial;

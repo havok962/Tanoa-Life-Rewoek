@@ -1,6 +1,6 @@
 #include "..\..\script_macros.hpp"
 /*
-    File: fn_fuelRefuelCar.sqf
+    File: fn_RefuelCar.sqf
     Author: NiiRoZz
 
     Description:

@@ -28,7 +28,7 @@ compileFinal "
     if (isNull _ret) exitWith {};
     if (isNil ""_ret"") exitWith {};
 
-    [life_atmbank,life_cash,owner player,player,profileNameSteam,getPlayerUID player,playerSide] remoteExecCall [""life_fnc_adminInfo"",_ret];
+    [life_atmbank,life_cash,owner player,player,profileNameSteam,getPlayerUID player,playerSide] remoteExecCall [""life_fnc_admininfo"",_ret];
 ";
 publicVariable "TON_fnc_player_query";
 publicVariable "TON_fnc_index";
@@ -57,7 +57,7 @@ compileFinal "
     _group = _this select 1;
     if (isNil ""_unit"" || isNil ""_group"") exitWith {};
     if (player isEqualTo _unit && (group player) == _group) then {
-        life_my_gang = objNull;
+        life_my_gang = ObjNull;
         [player] joinSilent (createGroup civilian);
         hint ""You have been kicked out of the gang."";
     };
@@ -104,7 +104,7 @@ compileFinal "
     _group = _this select 1;
     if (isNil ""_unit"" || isNil ""_group"") exitWith {};
     if (player isEqualTo _unit && (group player) == _group) then {
-        life_my_gang = objNull;
+        life_my_gang = ObjNull;
         [player] joinSilent (createGroup civilian);
         hint ""You have quit the gang."";
     };
