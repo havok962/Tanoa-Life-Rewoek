@@ -19,6 +19,7 @@ if (playerSide isEqualTo west && _illegal isEqualTo 1) exitWith {
     titleText[format[localize "STR_NOTF_PickedEvidence",_itemName,[round(ITEM_SELLPRICE(_itemInfo select 0) / 2)] call life_fnc_numberText],"PLAIN"];
     BANK = BANK + round(ITEM_SELLPRICE(_itemInfo select 0) / 2);
     deleteVehicle _this;
+    [1] call SOCK_fnc_updatePartial;
     life_action_delay = time;
 };
 
@@ -50,9 +51,9 @@ if (!(_diff isEqualTo (_itemInfo select 1))) then {
 
 if (LIFE_SETTINGS(getNumber,"player_advancedLog") isEqualTo 1) then {
     if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
-        advanced_log = format ["picked up %1 %2",_diff,localize _itemName];
+        advanced_log = format [localize "STR_DL_AL_pickedUp_BEF",_diff,localize _itemName];
     } else {
-        advanced_log = format ["%1 - %2 picked up %3 %4",profileName,(getPlayerUID player),_diff,localize _itemName];
+        advanced_log = format [localize "STR_DL_AL_pickedUp",profileName,(getPlayerUID player),_diff,localize _itemName];
     };
     publicVariableServer "advanced_log";
 };

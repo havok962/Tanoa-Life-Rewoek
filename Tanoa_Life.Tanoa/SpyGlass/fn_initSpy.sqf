@@ -9,6 +9,7 @@
 
     Will also become a standalone system which is why it's setup like this.
 */
+exitWith{};
 private["_binConfigPatches","_cfgPatches","_endM"];
 if (isServer && !hasInterface) exitWith {}; //Server doesn't need to know.
 #define CONST(var1,var2) var1 = compileFinal (if (var2 isEqualType "") then {var2} else {str(var2)})
@@ -159,8 +160,8 @@ _patchList =
 "CuratorOnly_Structures_F_Mil_Cargo","CuratorOnly_Structures_F_Mil_Fortification","CuratorOnly_Structures_F_Mil_Radar","CuratorOnly_Structures_F_Mil_Shelters","CuratorOnly_Structures_F_Research","CuratorOnly_Structures_F_Walls",
 "CuratorOnly_Structures_F_Wrecks","A3_Missions_F_Exp_A","A3_Missions_F_Exp_A_Data"];
 
-uiNamespace setVariable["RscDisplayRemoteMissions",displayNull]; //For Spy-Glass..
-uiNamespace setVariable["RscDisplayMultiplayer",displayNull];
+uiNamespace setVariable ["RscDisplayRemoteMissions",displayNull]; //For Spy-Glass..
+uiNamespace setVariable ["RscDisplayMultiplayer",displayNull];
 
 _binConfigPatches = configFile >> "CfgPatches";
 for "_i" from 0 to count (_binConfigPatches)-1 do {

@@ -1,5 +1,51 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project name="Altis Life RPG">
+    <Package name="Init">
+        <Key ID="STR_Init_ClientSetup">
+            <Original>Setting up client, please wait...</Original>
+            <Czech></Czech>
+            <Spanish></Spanish>
+            <Russian></Russian>
+            <German></German>
+            <Italian></Italian>
+            <French></French>
+            <Portuguese>Configurando o cliente. Por favor, aguarde...</Portuguese>
+            <Polish></Polish>
+        </Key>
+        <Key ID="STR_Init_ServerReady">
+            <Original>Waiting for the server to be ready...</Original>
+            <Czech></Czech>
+            <Spanish></Spanish>
+            <Russian></Russian>
+            <German></German>
+            <Italian></Italian>
+            <French></French>
+            <Portuguese>Esperando o servidor estar pronto...</Portuguese>
+            <Polish></Polish>
+        </Key>
+        <Key ID="STR_Init_ExtdbFail">
+            <Original>extDB failed to load, please contact an administrator.</Original>
+            <Czech></Czech>
+            <Spanish></Spanish>
+            <Russian></Russian>
+            <German></German>
+            <Italian></Italian>
+            <French></French>
+            <Portuguese>O extDB falhou ao carregar, por favor, contacte um administrador.</Portuguese>
+            <Polish></Polish>
+        </Key>
+        <Key ID="STR_Init_ClientFinish">
+            <Original>Finishing client setup procedure...</Original>
+            <Czech></Czech>
+            <Spanish></Spanish>
+            <Russian></Russian>
+            <German></German>
+            <Italian></Italian>
+            <French></French>
+            <Portuguese>Terminando o processo de configuração do cliente...</Portuguese>
+            <Polish></Polish>
+        </Key>
+    </Package>
     <Package name="Shop_Names">
         <Key ID="STR_Shops_C_Bruce">
             <Original>Bruce's Outback Outfits</Original>
@@ -309,7 +355,7 @@
             <Polish>Magazyny</Polish>
             <Russian></Russian>
             <Portuguese>Munições</Portuguese>
-            <German>Zeitschriften</German>
+            <German>Magazine</German>
         </Key>
         <Key ID="STR_Global_Accs">
             <Original>Accessories</Original>
@@ -625,7 +671,7 @@
         </Key>
         <Key ID="STR_ANOTF_CompWarn">
             <Original>You are about to give yourself $%1 to compensate to another player &lt;br/&gt;&lt;br/&gt;You must give this cash to the person you are compensating manually.</Original>
-            <Czech>Chystáte se dát si $%1 kompenzovat jinému hráči & lt; br / & gt; & lt; br / & gt; Musíte dát tuto hotovost na osoby, které jsou kompenzačním ručně.</Czech>
+            <Czech>Chystáte se dát si $%1 kompenzovat jinému hráči &lt; br / &gt; &lt; br / &gt; Musíte dát tuto hotovost na osoby, které jsou kompenzačním ručně.</Czech>
             <Spanish>Estas a punto de darte $%1 para compensar a otro jugador&lt;br/&gt;&lt;br/&gt; Debes darle el dinero a la persona manualmente.</Spanish>
             <Italian>Stai per darsi $%1 per compensare ad un altro giocatore &lt;br/&gt;&lt;br/&gt; È necessario dare questo denaro alla persona che si sta compensando manualmente.</Italian>
             <Russian></Russian>
@@ -1020,6 +1066,17 @@
             <Italian>Hai trasferito $%1 a $%2.\n\nSono stati trattenuti $%3 di tassa per il trasferimento.</Italian>
             <Portuguese>Você trasferiu R$%1 para %2.\n\nA taxa de trasferência foi de: R$%3.</Portuguese>
             <Polish>Przelałeś $%1 do %2.\n\nA opłata $%3 pobrana przez WIRE TRANSFER </Polish>
+        </Key>
+        <Key ID="STR_ATM_WireTransfer">
+            <Original>%1 has wire transferred $%2 to you.</Original>
+            <Czech></Czech>
+            <Spanish></Spanish>
+            <Russian></Russian>
+            <German></German>
+            <French></French>
+            <Italian></Italian>
+            <Portuguese></Portuguese>
+            <Polish></Polish>
         </Key>
         <Key ID="STR_ATM_WithdrawMax">
             <Original>You can't withdraw more then $999,999</Original>
@@ -1427,7 +1484,7 @@
         </Key>
         <Key ID="STR_GNOTF_AlreadyControlled">
             <Original>This hideout is controlled by %1.&lt;br/&gt;&lt;br/&gt;Are you sure you want to take over their gang area?</Original>
-            <Czech>Tento úkryt je řízen%1 & lt; br / & gt; & lt; br / & gt; Opravdu chcete převzít svůj gang prostor?</Czech>
+            <Czech>Tento úkryt je řízen%1 &lt; br / &gt; &lt; br / &gt; Opravdu chcete převzít svůj gang prostor?</Czech>
             <Spanish>Este escondite esta controlado por %1.&lt;br/&gt;&lt;br/&gt;Estas seguro que quieres tomarlo?</Spanish>
             <Russian></Russian>
             <German>Das Versteck wird durch %1 kontrolliert.&lt;br/&gt;&lt;br/&gt;Bist du sicher, dass du ihr Gang Gebiet übernehmen möchtest?</German>
@@ -1537,7 +1594,7 @@
         </Key>
         <Key ID="STR_GNOTF_DisbandWarn">
             <Original>You are about to disband the gang, by disbanding the gang it will be removed from the database and the group will be dropped. &lt;br/&gt;&lt;br/&gt;Are you sure you want to disband the group? You will not be refunded the price for creating it.</Original>
-            <Czech>Chystáte se rozpustit gang, tím, že rozpustí gang bude odstraněna z databáze a skupina bude vynechána. & Lt; br / & gt; & lt; br / & gt; Opravdu chcete rozpustit skupinu? Budete nevrací cenu za jeho vytvoření.</Czech>
+            <Czech>Chystáte se rozpustit gang, tím, že rozpustí gang bude odstraněna z databáze a skupina bude vynechána. &lt; br / &gt; &lt; br / &gt; Opravdu chcete rozpustit skupinu? Budete nevrací cenu za jeho vytvoření.</Czech>
             <Spanish>Estas a punto de desmantelar la Pandilla, si prosiges la Pandilla se borrara de la base de datos. &lt;br/&gt;&lt;br/&gt;Estas seguro de querer desmantelarla? Cualquier dinero invertido no sera devuelto.</Spanish>
             <Russian></Russian>
             <German>Du bist dabei, die Gang aufzulösen. Durch Auflösung der Gang wird sie aus der Datenbank entfernt. &lt;br/&gt;&lt;br/&gt;Bist du sicher, dass du die Gang auflösen willst? Du erhältst den Preis für die Erstellung nicht zurück.</German>
@@ -1581,7 +1638,7 @@
         </Key>
         <Key ID="STR_GNOTF_InviteMSG">
             <Original>%1 has invited you to a gang called %2&lt;br/&gt;If you accept the invitation you will be a part of their gang and will have access to the gang funds and controlled gang hideouts.</Original>
-            <Czech>%1 vás pozval na party s názvem%2 & lt; br / & gt; Pokud přijmete pozvání budete součástí jejich gangu a budou mít přístup ke gangu fondů a řízených gangů úkrytů.</Czech>
+            <Czech>%1 vás pozval na party s názvem%2 &lt; br / &gt; Pokud přijmete pozvání budete součástí jejich gangu a budou mít přístup ke gangu fondů a řízených gangů úkrytů.</Czech>
             <Spanish>%1 te ha invitado a una Pandilla llamada %2&lt;br/&gt;Si aceptas seras parte de su pandilla, compartiras el banco de la pandilla y controlaras sus escondites.</Spanish>
             <Russian></Russian>
             <German>%1 hat dich zu einer Gang namens %2 eingeladen &lt;br/&gt; Wenn Du die Einladung annimmst, wirst du ein Teil der Gang und bekommst Zugang zu den Gang-Konten und kontrollierten Gang Verstecken.</German>
@@ -1680,7 +1737,7 @@
         </Key>
         <Key ID="STR_GNOTF_TransferMSG">
             <Original>You are about to transfer leadership over to %1&lt;br/&gt;By transferring leadership you will no longer be in control of the gang unless ownership is transferred back.</Original>
-            <Czech>Chystáte se přenést vedoucí přes%1 & lt; br / & gt; Převedením vedení už nebude mít kontrolu nad gangu, pokud je vlastnictví převedeno zpět.</Czech>
+            <Czech>Chystáte se přenést vedoucí přes%1 &lt; br / &gt; Převedením vedení už nebude mít kontrolu nad gangu, pokud je vlastnictví převedeno zpět.</Czech>
             <Spanish>Estas a punto de transferir liderazgo a %1&lt;br/&gt;Al transferir liderazgo no tendrás control de la Pandilla.</Spanish>
             <Russian></Russian>
             <German>Du bist dabei, die Führung an %1 zu übertragen&lt;br/&gt;Durch die Übertragung der Leitung der Gang hast du keine Kontrolle mehr.</German>
@@ -1801,7 +1858,7 @@
         </Key>
         <Key ID="STR_GNOTF_UpgradeSuccess">
             <Original>You have upgraded from %1 to %2 maximum slots for &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt;</Original>
-            <Czech>Provedli jste upgrade z%1 do%2 Maximální sloty pro & lt; k color = "# 8cff9b '& gt; $%3 & lt; / & gt;</Czech>
+            <Czech>Provedli jste upgrade z%1 do%2 Maximální sloty pro &lt; k color = "# 8cff9b '&gt; $%3 &lt; / &gt;</Czech>
             <Spanish>Has aumentado de %1 a %2 slots &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt;</Spanish>
             <Russian></Russian>
             <German>Du hast für &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt; von %1 auf %2 Plätze erhöht</German>
@@ -2043,7 +2100,7 @@
             <Portuguese>O veículo foi guardado na sua garagem.</Portuguese>
             <Polish>Pojazd został zaparkowany.</Polish>
         </Key>
-    <Key ID="STR_Garage_spawn_Success">
+        <Key ID="STR_Garage_spawn_Success">
             <Original>Your vehicle is ready!</Original>
             <Czech>Vaše vozidlo je připraven!</Czech>
             <Spanish>Tu vehículo esta listo! </Spanish>
@@ -2367,6 +2424,17 @@
             <Russian></Russian>
             <Portuguese>Mostrar Objetos Próximos</Portuguese>
             <German>Nahe Objekte anzeigen</German>
+        </Key>
+        <Key ID="STR_SM_BCSW">
+            <Original>Broadcast Switch</Original>
+            <Czech></Czech>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Russian></Russian>
+            <Portuguese>Habilitar Transmissões</Portuguese>
+            <German></German>
         </Key>
         <Key ID="STR_SM_SCOFF">
             <Original>Sidechat OFF</Original>
@@ -2844,7 +2912,7 @@
             <Portuguese>Você pegou %1</Portuguese>
             <Polish>Złapałeś %1</Polish>
         </Key>
-    <Key ID="STR_NOTF_Gutting">
+        <Key ID="STR_NOTF_Gutting">
             <Original>Gutting %1</Original>
             <Czech>Kuchání%1</Czech>
             <Spanish>Eviscerando %1</Spanish>
@@ -2855,7 +2923,7 @@
             <Portuguese>evisceração %1</Portuguese>
             <Polish>Patroszenie %1</Polish>
         </Key>
-    <Key ID="STR_NOTF_Guttingfinish">
+        <Key ID="STR_NOTF_Guttingfinish">
             <Original>You have collected some raw %1 meat</Original>
             <Czech>Nasbíráte nějaké syrové maso %1</Czech>
             <Spanish>Has recolectado carne cruda de %1</Spanish>
@@ -4175,6 +4243,173 @@
             <Russian>Вы не можете удалить элемент, когда вы находитесь в автомобиле.</Russian>
             <German>Sie können ein Element nicht entfernen, wenn Sie in einem Fahrzeug sind.</German>
         </Key>
+        <Key ID="STR_NOTF_nowSpectating">
+            <Original>You are now spectating %1.\n\nPress F10 to stop spectating.</Original>
+            <Czech>Nyní diváck é%1.\n\nStisknutím klávesy F10 k zastavení divácké.</Czech>
+            <French>Vous êtes maintenant spectating %1.\n\nAppuyez sur F10 pour arrêter spectating.</French>
+            <Spanish>Ahora está de espectador %1.\n\nPulse F10 para dejar de spectating.</Spanish>
+            <Italian>Si è ora spectating %1.\n\nPremere F10 per smettere di spettatori.</Italian>
+            <Polish>Grasz teraz spectating %1.\n\nNaciśnij klawisz F10, aby zatrzymać spectating.</Polish>
+            <Portuguese>Você agora está como espectador %1.\n\nPressione F10 para sair.</Portuguese>
+            <Russian>Теперь вы spectating %1.\n\nНажмите F10, чтобы остановить spectating.</Russian>
+            <German>Du beobachtest nun %1.\n\nDrücke F10, um das Beobachten zu beenden.</German>
+        </Key>
+        <Key ID="STR_NOTF_haveTPedToYou">
+            <Original>You have teleported %1 to your location.</Original>
+            <Czech>Jste teleported %1 do vaší polohy.</Czech>
+            <French>Vous avez téléporté %1 à votre emplacement.</French>
+            <Spanish>Usted ha teletransportado %1 a su ubicación.</Spanish>
+            <Italian>Hai teletrasportato %1 alla vostra posizione.</Italian>
+            <Polish>Masz teleportował %1 na swoim miejscu.</Polish>
+            <Portuguese>Você teletransportou %1 para a sua localização.</Portuguese>
+            <Russian>Вы телепортированы %1 к вашему положению.</Russian>
+            <German>Du hast %1 zu deiner Position teleportiert.</German>
+        </Key>
+        <Key ID="STR_NOTF_ATM">
+            <Original>&lt;t color='#ADFF2F'&gt;ATM&lt;/t&gt;</Original>
+            <Czech>&lt;t color='#ADFF2F'&gt;Bankomat&lt;/t&gt;</Czech>
+            <French>&lt;t color='#ADFF2F'&gt;AU M&lt;/t&gt;</French>
+            <Spanish>&lt;t color='#ADFF2F'&gt;ATM&lt;/t&gt;</Spanish>
+            <Italian>&lt;t color='#ADFF2F'&gt;ATM&lt;/t&gt;</Italian>
+            <Polish>&lt;t color='#ADFF2F'&gt;Bankomat&lt;/t&gt;</Polish>
+            <Portuguese>&lt;t color='#ADFF2F'&gt;Caixa Eletrônico&lt;/t&gt;</Portuguese>
+            <Russian>&lt;t color='#ADFF2F'&gt;Банкомат&lt;/t&gt;</Russian>
+            <German>&lt;t color='#ADFF2F'&gt;Geldautomat&lt;/t&gt;</German>
+        </Key>
+        <Key ID="STR_NOTF_captureGangHideout">
+            <Original>Capture Gang Hideout</Original>
+            <Czech>Zachyťte Gang skrýš</Czech>
+            <French>Capturez Gang Cachette</French>
+            <Spanish>Captura de la cuadrilla de Escondite</Spanish>
+            <Italian>Cattura Banda Nascondiglio</Italian>
+            <Polish>Przechwytywanie Banda Kryjówka</Polish>
+            <Portuguese>Capturar Esconderijo de Gangue</Portuguese>
+            <Russian>Захват шайка укрытие</Russian>
+            <German>Ganggebiet einnehmen</German>
+        </Key>
+    </Package>
+    <Package name="News_Strings">
+        <Key ID="STR_News_AddAction">
+            <Original>News Station Broadcast</Original>
+            <Czech></Czech>
+            <Spanish></Spanish>
+            <Russian></Russian>
+            <German></German>
+            <French></French>
+            <Italian></Italian>
+            <Portuguese></Portuguese>
+            <Polish></Polish>
+        </Key>
+        <Key ID="STR_News_DialogTitle">
+            <Original>Channel 7 News Station</Original>
+            <Czech></Czech>
+            <Spanish></Spanish>
+            <Russian></Russian>
+            <German></German>
+            <French></French>
+            <Italian></Italian>
+            <Portuguese></Portuguese>
+            <Polish></Polish>
+        </Key>
+        <Key ID="STR_News_MsgHeader">
+            <Original>Message Heading:</Original>
+            <Czech></Czech>
+            <Spanish></Spanish>
+            <Russian></Russian>
+            <German></German>
+            <French></French>
+            <Italian></Italian>
+            <Portuguese></Portuguese>
+            <Polish></Polish>
+        </Key>
+        <Key ID="STR_News_MsgContent">
+            <Original>Message Content:</Original>
+            <Czech></Czech>
+            <Spanish></Spanish>
+            <Russian></Russian>
+            <German></German>
+            <French></French>
+            <Italian></Italian>
+            <Portuguese></Portuguese>
+            <Polish></Polish>
+        </Key>
+        <Key ID="STR_News_Broadcast">
+            <Original>Broadcast Message</Original>
+            <Czech></Czech>
+            <Spanish></Spanish>
+            <Russian></Russian>
+            <German></German>
+            <French></French>
+            <Italian></Italian>
+            <Portuguese></Portuguese>
+            <Polish></Polish>
+        </Key>
+        <Key ID="STR_News_StructuredText">
+            <Original>Broadcast Cost: %1&lt;br /&gt;Next Broadcast Available: %2</Original>
+            <Czech></Czech>
+            <Spanish></Spanish>
+            <Russian></Russian>
+            <German></German>
+            <French></French>
+            <Italian></Italian>
+            <Portuguese></Portuguese>
+            <Polish></Polish>
+        </Key>
+        <Key ID="STR_News_HeaderLength">
+            <Original>The header cannot be over %1 characters</Original>
+            <Czech></Czech>
+            <Spanish></Spanish>
+            <Russian></Russian>
+            <German></German>
+            <French></French>
+            <Italian></Italian>
+            <Portuguese></Portuguese>
+            <Polish></Polish>
+        </Key>
+        <Key ID="STR_News_UnsupportedCharacter">
+            <Original>You've entered an unsupported character!</Original>
+            <Czech></Czech>
+            <Spanish></Spanish>
+            <Russian></Russian>
+            <German></German>
+            <French></French>
+            <Italian></Italian>
+            <Portuguese></Portuguese>
+            <Polish></Polish>
+        </Key>
+        <Key ID="STR_News_Now">
+            <Original>Now</Original>
+            <Czech></Czech>
+            <Spanish></Spanish>
+            <Russian></Russian>
+            <German></German>
+            <French></French>
+            <Italian></Italian>
+            <Portuguese></Portuguese>
+            <Polish></Polish>
+        </Key>
+        <Key ID="STR_News_NotEnough">
+            <Original>You need $%1 to send a broadcast!</Original>
+            <Czech></Czech>
+            <Spanish></Spanish>
+            <Russian></Russian>
+            <German></German>
+            <French></French>
+            <Italian></Italian>
+            <Portuguese></Portuguese>
+            <Polish></Polish>
+        </Key>
+        <Key ID="STR_News_BroadcastedBy">
+            <Original>&lt;t size='2'&gt;%1&lt;/t&gt;&lt;br /&gt;Broadcasted by: %2</Original>
+            <Czech></Czech>
+            <Spanish></Spanish>
+            <Russian></Russian>
+            <German></German>
+            <French></French>
+            <Italian></Italian>
+            <Portuguese></Portuguese>
+            <Polish></Polish>
+        </Key>
     </Package>
     <Package name="Jail_Strings">
         <Key ID="STR_Jail_Warn">
@@ -4832,7 +5067,7 @@
         </Key>
         <Key ID="STR_Cop_NoLicensesFound">
             <Original>No Licenses&lt;br/&gt;</Original>
-            <Czech>Žádné Licence & lt; br / & gt;</Czech>
+            <Czech>Žádné Licence &lt; br / &gt;</Czech>
             <Spanish>No Licencias&lt;br/&gt;</Spanish>
             <Russian></Russian>
             <German>Keine Lizenzen&lt;br/&gt;</German>
@@ -5386,7 +5621,7 @@
         </Key>
         <Key ID="STR_House_BuyMSG">
             <Original>This house is available for &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt;It supports up to %2 storage containers</Original>
-            <Czech>Tento dům je k dispozici pro & lt; k color = "# 8cff9b '& gt; $%1 & lt; / t & gt; & lt; br / & gt; Podporuje až %2 skladovací kontejnery</Czech>
+            <Czech>Tento dům je k dispozici pro &lt; k color = "# 8cff9b '&gt; $%1 &lt; / t &gt; &lt; br / &gt; Podporuje až %2 skladovací kontejnery</Czech>
             <Spanish>Esta casa esta disponible por &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt;Soporta hasta %2 contenedores</Spanish>
             <Russian></Russian>
             <German>Dieses Haus gibt es für &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt; Es unterstützt %2 Lagerbox(en)</German>
@@ -7612,6 +7847,17 @@
             <Russian></Russian>
             <Portuguese>Habilita/Desabilita o side-channel, desabilite caso você não queira conversar com os jogadores da sua facção.</Portuguese>
             <German>Sidechat aktivieren. Ausschalten, wenn du nicht mit Spielern deiner Fraktion sprechen möchtest.</German>
+        </Key>
+        <Key ID="STR_GUI_BroadcastSwitch">
+          <Original>Switch player's broadcast mode, turn this off if you don't want to see any broadcast from other players.</Original>
+          <Czech></Czech>
+          <French></French>
+          <Spanish></Spanish>
+          <Italian></Italian>
+          <Polish></Polish>
+          <Russian></Russian>
+          <Portuguese>Habilita/Desabilita as transmissões dos jogadores, desabilite caso você não queira ver as transmissões dos outros jogadores.</Portuguese>
+          <German></German>
         </Key>
         <Key ID="STR_GUI_PlayTags">
             <Original>Controls whether or not players will have name tags above their head.</Original>
@@ -10875,6 +11121,338 @@
             <Portuguese>Mensagem de administração</Portuguese>
             <Russian>Администратор Сообщение</Russian>
             <German>Admin-Nachricht</German>
+        </Key>
+    </Package>
+    <Package name="Data_Logging">
+        <Key ID="STR_DL_AL_Arrested_BEF">
+            <Original>arrested %1</Original>
+            <Czech>zadržen %1</Czech>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese>prendeu %1</Portuguese>
+            <Russian>арестовано %1</Russian>
+            <German>hat %1 verhaftet</German>
+        </Key>
+        <Key ID="STR_DL_AL_Arrested">
+            <Original>%1 - %2 arrested %3</Original>
+            <Czech>%1 - %2 %3 zatčen</Czech>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese>%1 - %2 prendeu %3</Portuguese>
+            <Russian>%1 - %2 %3 арестовано</Russian>
+            <German>%1 - %2 hat %3 verhaftet</German>
+        </Key>
+        <Key ID="STR_DL_AL_pickedUp_BEF">
+            <Original>picked up %1 %2</Original>
+            <Czech>vyzvednout %1 %2</Czech>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese>pegou %1 %2</Portuguese>
+            <Russian>поднял %1 %2</Russian>
+            <German>hat $%1 $%2 aufgehoben</German>
+        </Key>
+        <Key ID="STR_DL_AL_pickedUp">
+            <Original>%1 - %2 picked up %3 %4</Original>
+            <Czech>%1 - %2 vyzvednout%3 %4</Czech>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese>%1 - %2 pegou %3 %4</Portuguese>
+            <Russian>взял $%1 от земли. Банковский баланс: $%2 на руку Баланс: $%3</Russian>
+            <German>%1 - %2 hat %3 %4 aufgehoben</German>
+        </Key>
+        <Key ID="STR_DL_ML_pickedUpMoney_BEF">
+            <Original>picked up $%1 from the ground. Bank Balance: $%2  On Hand Balance: $%3</Original>
+            <Czech>zvedl $%1 ze země. Banka Zůstatek: $%2 po zralé úvaze rukou: $%3</Czech>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese>pegou R$%1 do chão. Quantia no Banco: R$%2 Quantia na Mão: R$%3</Portuguese>
+            <Russian>взял $%1 от земли. Банковский баланс: $%2 на руку Баланс: $%3</Russian>
+            <German>hat $%1 vom Boden aufgehoben. Bank-Konto: $%2  Bargeld: $%3</German>
+        </Key>
+        <Key ID="STR_DL_ML_pickedUpMoney">
+            <Original>%1 - %2 picked up $%3 from the ground. Bank Balance: $%4  On Hand Balance $%5</Original>
+            <Czech>%1 - %2 vyzvednout $%3 ze země. Banka Zůstatek: $%4 po ruce Balance $%5</Czech>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese>%1 - %2 pegou R$%3 do chão. Quantia no Banco: R$%4 Quantia na mão: R$%5</Portuguese>
+            <Russian>%1 - %2 взял $%3 от земли. Банковский баланс: $%4 На Hand Баланс $%5</Russian>
+            <German>%1 - %2 hat $%3 vom Boden aufgehoben. Bank-Konto: $%4  Bargeld: $%5</German>
+        </Key>
+        <Key ID="STR_DL_ML_Robbed_BEF">
+            <Original>robbed $%1 from %2. Bank Balance: $%3  On Hand Balance: $%4</Original>
+            <Czech>oloupen $%1 z %2. Banka Zůstatek: $%3 po zralé úvaze rukou: $%4</Czech>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese>roubou R$%1 de %2. Quantia no Banco: R$%3 Quantia na Mão: R$%4</Portuguese>
+            <Russian>ограбил $%1 из %2. Банковский баланс: $%3 на руку Баланс: $%4</Russian>
+            <German>hat $%1 von $%2 geraubt. Bank-Konto: $%3  Bargeld: $%4</German>
+        </Key>
+        <Key ID="STR_DL_ML_Robbed">
+            <Original>%1 - %2 robbed $%3 from %4. Bank Balance: $%5  On Hand Balance: $%6</Original>
+            <Czech>%1 - %2 okraden $%3 z %4. Banka Zůstatek: $%5 po zralé úvaze rukou: $%6</Czech>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese>%1 - %2 roubou R$%3 de %4. Quantia no Banco: R$%5 Quantia na Mão: R$%6</Portuguese>
+            <Russian>%1 - %2 ограбил $%3 от %4. Банковский баланс: $%5 на руку Баланс: $%6</Russian>
+            <German>%1 - %2 hat $%3 von %4 geraubt. Bank-Konto: $%5  Bargeld: $%6</German>
+        </Key>
+        <Key ID="STR_DL_AL_createdGang_BEF">
+            <Original>created a gang named: %1 for $%2</Original>
+            <Czech>Vytvořili gang s názvem: %1 za $%2</Czech>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese>criou uma gangue chamada: %1 por R$%2</Portuguese>
+            <Russian>создали банду под названием: %1 за $%2</Russian>
+            <German>hat eine Gang namens $1 für $%2 erstellt</German>
+        </Key>
+        <Key ID="STR_DL_AL_createdGang">
+            <Original>%1 - %2 created a gang named: %3 for $%4</Original>
+            <Czech>%1 - %2 vytvořili gang s názvem: %3 za $%4</Czech>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese>%1 - %2 criou uma gangue chamada: %3 por R$%4</Portuguese>
+            <Russian>%1 - %2 создали банду под названием: %3 за $%4</Russian>
+            <German>%1 - %2 hat eine Gang namens %3 für $%4 erstellt</German>
+        </Key>
+        <Key ID="STR_DL_AL_boughtHouse_BEF">
+            <Original>bought a house for $%1. Bank Balance: $%2  On Hand Cash: $%3</Original>
+            <Czech>koupil dům za $%1. Banka Zůstatek: $%2 On Hand Cash: $%3</Czech>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese>comprou uma casa por R$%1. Quantia no Banco: R$%2 Quantia na Mão: R$%3</Portuguese>
+            <Russian>купил дом за $%1. Банковский баланс: $%2 на руках наличные деньги: $%3</Russian>
+            <German>hat sich ein Haus für $%1 gekauft. Bank-Konto: $%2  Bargeld: $%3</German>
+        </Key>
+        <Key ID="STR_DL_AL_boughtHouse">
+            <Original>%1 - %2 bought a house for $%3. Bank Balance: $%4  On Hand Cash: $%5</Original>
+            <Czech>%1 - %2 koupil dům za $%3. Banka Zůstatek: $%4 On Hand Cash: $%5</Czech>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese>%1 - %2 comprou uma casa por R$%3. Quantia no Banco: R$%4 Quantia na Mão: R$%5</Portuguese>
+            <Russian>%1 - %2 купил дом за $%3. Банковский баланс: $%4 на руках наличные деньги: $%5</Russian>
+            <German>%1 - %2 hat sich ein Haus für $%3 gekauft. Bank-Konto: $%4  Bargeld: $%5</German>
+        </Key>
+        <Key ID="STR_DL_AL_soldHouse_BEF">
+            <Original>sold a house for $%1. Bank Balance: $%2</Original>
+            <Czech>prodal dům za $%1. Banka Zůstatek: $%2</Czech>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese>vendeu uma casa por R$%1. Quantia no Banco: R$%2</Portuguese>
+            <Russian>продал дом за $%1. Банковский баланс: $%2</Russian>
+            <German>hat sein Haus für $%1 verkauft. Bank-Konto: $%2</German>
+        </Key>
+        <Key ID="STR_DL_AL_soldHouse">
+            <Original>%1 - %2 sold a house for $%3. Bank Balance: $%4</Original>
+            <Czech>%1 - %2 prodal dům za $%3. Banka Zůstatek: $%4</Czech>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese>%1 - %2 vendeu uma casa por R$%3. Quantia no Banco: R$%4</Portuguese>
+            <Russian>%1 - %2 продал дом за $%3. Банковский баланс: $%4</Russian>
+            <German>%1 - %2 hat sich ein Haus für $%3 verkauft. Bank-Konto: $%4</German>
+        </Key>
+        <Key ID="STR_DL_AL_choppedVehicle_BEF">
+            <Original>chopped vehicle %1 for $%2  On Hand Cash(pre-chop): $%3</Original>
+            <Czech>nasekané vozidlo %1 nebo $%2 na ruce hotovosti (pre-CHOP): $%3</Czech>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese>desmanchou um %1 por R$%2 Quantia na Mão (antes do desmanche): R$%3</Portuguese>
+            <Russian>нарезанного машина %1 или $%2 на руках Cash (предварительно отбивной): $%3</Russian>
+            <German>hat das Fahrzeug %1 für $%2 im Chop-Shop verkauft. Bargeld(vor Chop): $%3</German>
+        </Key>
+        <Key ID="STR_DL_AL_choppedVehicle">
+            <Original>%1 - %2 chopped vehicle %3 for $%4  On Hand Cash(pre-chop): $%5</Original>
+            <Czech>%1 - %2 nasekané vozidla %3 za $%4 po ruce hotovosti (před-kotleta): $%5</Czech>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese>%1 - %2 desmanchou um %3 por R$%4 Quantia na Mão(antes do desmanche): R$%5</Portuguese>
+            <Russian>%1 - %2 нарезанной автомобиля %3 за $%4 на руку Cash (предварительно отбивной): $%5</Russian>
+            <German>%1 - %2 hat das Fahrzeug %3 für $%4 im Chop-Shop verkauft. Bargeld(vor Chop): $%6</German>
+        </Key>
+        <Key ID="STR_DL_AL_boughtVehicle_BEF">
+            <Original>bought vehicle %1 for $%2. On Hand Cash: $%3  Bank Balance: $%4</Original>
+            <Czech>koupil vozidla %1 nebo $%2. On Hand Cash: $%3 bankovní konto: $%4</Czech>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese>comprou um %1 por R$%2. Quantia na Mão: R$%3 Quantia no Banco: R$%4</Portuguese>
+            <Russian>купил автомобиль %1 или $%2. На Hand Cash: $%3 банка Баланс: $%4</Russian>
+            <German>hat sich das Fahrzeug %1 für $%2 gekauft. Bargeld: $%3  Bank-Konto: $%4</German>
+        </Key>
+        <Key ID="STR_DL_AL_boughtVehicle">
+            <Original>%1 - %2 bought vehicle %3 for $%4. On Hand Cash: $%5  Bank Balance $%6</Original>
+            <Czech>%1 - %2 koupilo vozidla %3 za $%4. On Hand Cash: $%5 bankovní konto $%6</Czech>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese>%1 - %2 comprou um %3 por R$%4. Quantia na Mão: R$%5 Quantia no Banco: R$%6</Portuguese>
+            <Russian>%1 - %2 купил автомобиль за $%3 %4. На Hand наличных: $%5 баланса банка $%6</Russian>
+            <German>%1 - %2 hat sich das Fahrzeug %3 für $%4 gekauft. Bargeld: $%5 Bank-Konto: $%6</German>
+        </Key>
+        <Key ID="STR_DL_AL_soldVehicle_BEF">
+            <Original>sold vehicle %1 for $%2. Bank Balance: $%3  On Hand Balance: $%4</Original>
+            <Czech>prodával vozidla %1 pro $%2. Banka Zůstatek: $%3 po zralé úvaze rukou: $%4</Czech>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese>vendeu um %1 por R$%2. Quantia no Banco: R$%3 Quantia na Mão: R$%4</Portuguese>
+            <Russian>продается автомобиль %1 за $%2. Банковский баланс: $%3 на руку Баланс: $%4</Russian>
+            <German>hat das Fahrzeug %1 für $%2 verkauft. Bank-Konto: $%3  Bargeld: $%4</German>
+        </Key>
+        <Key ID="STR_DL_AL_soldVehicle">
+            <Original>%1 - %2 sold vehicle %3 for $%4. Bank Balance: $%5  On Hand Balance: $%6</Original>
+            <Czech>%1 - %2 prodával vozidla %3 za $%4. Banka Zůstatek: $%5 po zralé úvaze rukou: $%6</Czech>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese>%1 - %2 vendeu um %3 por R$%4. Quantia no Banco: R$%5 Quantia na Mão: R$%6</Portuguese>
+            <Russian>%1 - %2 продал автомобиль за $%3 %4. Банковский баланс: $%5 на руку Баланс: $%6</Russian>
+            <German>%1 - %2 hat das Fahrzeug %3 für %4 verkauft. Bank-Konto: $%5  Bargeld: $%6</German>
+        </Key>
+        <Key ID="STR_DL_ML_withdrewGang_BEF">
+            <Original>withdrew $%1 from their gang bank. Gang Bank Balance: $%2  Bank Balance: $%3  On Hand Balance: $%4</Original>
+            <Czech>stáhl $%1 z jejich gangu banky. Gang bankovní konto: $%2 bankovní konto: $%3 po zralé úvaze rukou: $%4</Czech>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            Portuguese>sacou R$%1 no banco da sua gangue. Quantia no Banco da Gangue: R$%2 Quantia no Banco: R$%3 Quantia na Mão: R$%4</Portuguese>
+            <Russian>снял $%1 от их банды банка. Gang Bank Баланс: $%2 банка Баланс: $%3 на руку Баланс: $%4</Russian>
+            <German>hat $%1 von seinem Gang-Konto abgehoben. Gang-Konto: $%2  Bank-Konto: $%3  Bargeld: $%4</German>
+        </Key>
+        <Key ID="STR_DL_ML_withdrewGang">
+            <Original>%1 - %2 withdrew $%3 from their gang bank. Gang Bank Balance: $%4  Bank Balance: $%5  On Hand Balance: $%6</Original>
+            <Czech>%1 - %2 stáhl $%3 z jejich gangu banky. Gang bankovní konto: $%4 bankovní konto: $%5 po zralé úvaze rukou: $%6</Czech>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese>%1 - %2 sacou R$%3 no banco da sua gangue. Quantia no Banco da Gangue: R$%4 Quantia no Banco: R$%5 Quantia na Mão: R$%6</Portuguese>
+            <Russian>%1 - %2 отозвала $%3 из их банды банка. Gang Bank Баланс: $%4 банка Баланс: $%5 на руку Баланс: $%6</Russian>
+            <German>%1 - %2 hat $%3 von seinem Bankkonto abgehoben. Gang-Konto: $%4  Bank-Konto: $%5  Bargeld: $%6</German>
+        </Key>
+        <Key ID="STR_DL_ML_depositeGang_BEF">
+            <Original>deposited $%1 into their gang bank. Gang Bank Balance: $%2  Bank Balance: $%3  On Hand Balance: $%4</Original>
+            <Czech>uložen $%1 do svého gangu banky. Gang bankovní konto: $%2 bankovní konto: $%3 po zralé úvaze rukou: $%4</Czech>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese>depositou R$%1 no banco da sua gangue. Quantia no Banco da Gangue: R$%2 Quantia no Banco: R$%3 Quantia na Mão: R$%4</Portuguese>
+            <Russian>депозит в размере $%1 в их банде банка. Gang Bank Баланс: $%2 банка Баланс: $%3 на руку Баланс: $%4</Russian>
+            <German>hat $%1 auf sein Gang-Konto eingezahlt. Gang-Konto: $%2  Bank-Konto: $%3  Bargeld: $%4</German>
+        </Key>
+        <Key ID="STR_DL_ML_depositeGang">
+            <Original>%1 - %2 deposited $%3 into their gang bank. Gang Bank Balance: $%4  Bank Balance: $%5  On Hand Balance: $%6</Original>
+            <Czech>%1 - %2 uloženy $%3 do jejich gangu banky. Gang bankovní konto: $%4 bankovní konto: $%5 po zralé úvaze rukou: $%6</Czech>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese>%1 - %2 depositou R$%3 no banco da sua gangue. Quantia no Banco da Gangue: R$%4 Quantia no Banco: R$%5 Quantia na Mão: R$%6</Portuguese>
+            <Russian>%1 - %2 депозит в размере $%3 в их банде банка. Gang Bank Баланс: $%4 банка Баланс: $%5 на руку Баланс: $%6</Russian>
+            <German>%1 - %2 hat $%3 auf sein Gang-Konto überwiesen. Gang-Konto: $%4  Bank-Konto: $%5  Bargeld: $%6</German>
+        </Key>
+        <Key ID="STR_DL_ML_withdrewBank_BEF">
+            <Original>withdrew $%1 from their bank. Bank Balance: $%2  On Hand Balance: $%3</Original>
+            <Czech>stáhl $%1 z jejich banky. Banka Zůstatek: $%2 po zralé úvaze rukou: $%3</Czech>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese>sacou R$%1 do seu banco. Quantia no Banco: R$%2 Quantia na Mão: R$%3</Portuguese>
+            <Russian>снял $%1 от своего банка. Банковский баланс: $%2 на руку Баланс: $%3</Russian>
+            <German>hat $%1 von seinem Bankkonto abgehoben. Bank-Konto: $%2  Bargeld: $%3</German>
+        </Key>
+        <Key ID="STR_DL_ML_withdrewBank">
+            <Original>%1 - %2 withdrew $%3 from their bank. Bank Balance: $%4  On Hand Balance: $%5</Original>
+            <Czech>%1 - %2 stáhl $%3 od své banky. Banka Zůstatek: $%4 po zralé úvaze rukou: $%5</Czech>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese>%1 - %2 sacou R$%3 do seu banco. Quantia no Banco: R$%4 Quantia na Mão: R$%5</Portuguese>
+            <Russian>%1 - %2 отозвала $%3 из своего банка. Банковский баланс: $%4 на руку Баланс: $%5</Russian>
+            <German>%1 - %2 hat $%3 von seinem Bankkonto abgehoben. Bank-Konto: $%4  Bargeld: $%5</German>
+        </Key>
+        <Key ID="STR_DL_ML_transferredBank_BEF">
+            <Original>transferred $%1 to %2. Bank Balance: $%3  On Hand Balance: $%4</Original>
+            <Czech>přestoupil $%1 do %2. Banka Zůstatek: $%3 po zralé úvaze rukou: $%4</Czech>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese>transferiu R$%1 para %2. Quantia no Banco: R$%3 Quantia na Mão: R$%4</Portuguese>
+            <Russian>перечислил $%1 %2. Банковский баланс: $%3 на руку Баланс: $%4</Russian>
+            <German>hat %2 $%1 überwiesen. Bank-Konto: $%3  Bargeld: $%4</German>
+        </Key>
+        <Key ID="STR_DL_ML_transferredBank">
+            <Original>%1 - %2 transferred $%3 to %4. Bank Balance: $%5  On Hand Balance: $%6</Original>
+            <Czech>%1 - %2 převedena $%3 až %4. Banka Zůstatek: $%5 po zralé úvaze rukou: $%6</Czech>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese>%1 - %2 transferiu R$%3 para %4. Quantia no Banco: R$%5 Quantia na Mão: R$%6</Portuguese>
+            <Russian>%1 -%2 перевели $%3 до %4. Банковский баланс: $%5 на руку Баланс: $%6</Russian>
+            <German>%1 - %2 hat %4 $%3 überwiesen. Bank-Konto: $%5  Bargeld: $%6</German>
+        </Key>
+        <Key ID="STR_DL_ML_depositedBank_BEF">
+            <Original>deposited $%1 into their bank. Bank Balance: $%2  On Hand Balance: $%3</Original>
+            <Czech>uložen $%1 do své banky. Banka Zůstatek: $%2 po zralé úvaze rukou: $%3</Czech>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese>depositou R$%1 no seu banco. Quantia no Banco: R$%2 Quantia na Mão: R$%3</Portuguese>
+            <Russian>депозит в размере $%1 в их банке. Банковский баланс: $%2 на руку Баланс: $%3</Russian>
+            <German>hat $%1 auf sein Bankkonto eingezahlt. Bank-Konto: $%2  Bargeld: $%3</German>
+        </Key>
+        <Key ID="STR_DL_ML_depositedBank">
+            <Original>%1 - %2 deposited $%3 into their bank. Bank Balance: $%4  On Hand Balance: $%5</Original>
+            <Czech>%1 - %2 uloženy $%3 do své banky. Banka Zůstatek: $%4 po zralé úvaze rukou: $%5</Czech>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+            <Polish></Polish>
+            <Portuguese>%1 - %2 depositou R$%3 no seu banco. Quantia no Banco: R$%4 Quantia na Mão: R$%5</Portuguese>
+            <Russian>%1 - %2 депозит в размере $%3 в свой банк. Банковский баланс: $%4 на руку Баланс: $%5</Russian>
+            <German>%1 - %2 hat $%3 auf sein Konto eingezahlt. Bank-Konto: $%4  Bargeld: $%5</German>
         </Key>
     </Package>
 </Project>

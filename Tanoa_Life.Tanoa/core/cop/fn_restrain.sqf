@@ -4,7 +4,7 @@
     Author: Bryan "Tonic" Boardwine
 
     Description:
-    Retrains the client.
+    Restrains the client.
 */
 private["_cop","_player","_vehicle"];
 _cop = [_this,0,objNull,[objNull]] call BIS_fnc_param;
@@ -19,10 +19,10 @@ if (isNull _cop) exitWith {};
         _time = time;
         waitUntil {(time - _time) > (5 * 60)};
 
-        if (!(player getVariable ["restrained",FALSE])) exitWith {};
-        if (!([west,getPos player,30] call life_fnc_nearUnits) && (player getVariable ["restrained",FALSE]) && isNull objectParent player) exitWith {
-            player setVariable ["restrained",FALSE,TRUE];
-            player setVariable ["Escorting",FALSE,TRUE];
+        if (!(player getVariable ["restrained",false])) exitWith {};
+        if (!([west,getPos player,30] call life_fnc_nearUnits) && (player getVariable ["restrained",false]) && isNull objectParent player) exitWith {
+            player setVariable ["restrained",false,true];
+            player setVariable ["Escorting",false,true];
             player setVariable ["transporting",false,true];
             detach player;
             titleText[localize "STR_Cop_ExcessiveRestrain","PLAIN"];

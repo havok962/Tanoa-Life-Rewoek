@@ -7,7 +7,7 @@
     Impounds the vehicle
 */
 private["_vehicle","_type","_time","_value","_vehicleData","_upp","_ui","_progress","_pgText","_cP","_filters","_impoundValue","_price","_impoundMultiplier"];
-_vehicle = param [0,ObjNull,[ObjNull]];
+_vehicle = param [0,objNull,[objNull]];
 _filters = ["Car","Air","Ship"];
 if (!((KINDOF_ARRAY(_vehicle,_filters)))) exitWith {};
 if (player distance cursorObject > 10) exitWith {};
@@ -67,7 +67,7 @@ if (count crew _vehicle isEqualTo 0) then {
                 hint format[localize "STR_NOTF_OwnImpounded",[_value] call life_fnc_numberText,_type];
                 BANK = BANK - _value;
             } else {
-                hint format[localize "STR_NOTF_Impounded",[_value] call life_fnc_numberText,_type];
+                hint format[localize "STR_NOTF_Impounded",_type,[_value] call life_fnc_numberText];
                 BANK = BANK + _value;
             };
             if (BANK < 0) then {BANK = 0;};

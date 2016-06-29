@@ -7,7 +7,7 @@
     Breaks the lock on a single door (Closet door to the player).
 */
 private["_building","_door","_doors","_cpRate","_title","_progressBar","_titleText","_cp","_ui"];
-_building = param [0,ObjNull,[ObjNull]];
+_building = param [0,objNull,[objNull]];
 
 if (isNull _building) exitWith {};
 if (!(_building isKindOf "House_F")) exitWith {hint localize "STR_ISTR_Bolt_NotNear";};
@@ -23,7 +23,7 @@ _door = 0;
 for "_i" from 1 to _doors do {
     _selPos = _building selectionPosition format["Door_%1_trigger",_i];
     _worldSpace = _building modelToWorld _selPos;
-        if (player distance _worldSpace < 5) exitWith {_door = _i;};
+        if (player distance _worldSpace < 2) exitWith {_door = _i;};
 };
 if (_door isEqualTo 0) exitWith {hint localize "STR_Cop_NotaDoor"}; //Not near a door to be broken into.
 if ((_building getVariable [format["bis_disabled_Door_%1",_door],0]) isEqualTo 0) exitWith {hint localize "STR_House_Raid_DoorUnlocked"};
@@ -78,7 +78,7 @@ for "_i" from 0 to 1 step 0 do {
 5 cutText ["","PLAIN"];
 player playActionNow "stop";
 if (!alive player || life_istazed || life_isknocked) exitWith {life_action_inUse = false;};
-if (player getVariable["restrained",false]) exitWith {life_action_inUse = false;};
+if (player getVariable ["restrained",false]) exitWith {life_action_inUse = false;};
 if (life_interrupted) exitWith {life_interrupted = false; titleText[localize "STR_NOTF_ActionCancel","PLAIN"]; life_action_inUse = false;};
 life_boltcutter_uses = life_boltcutter_uses + 1;
 life_action_inUse = false;
@@ -89,7 +89,7 @@ if (life_boltcutter_uses >= 5) then {
 };
 
 _building setVariable [format["bis_disabled_Door_%1",_door],0,true]; //Unlock the door.
-_building setVariable["locked",false,true];
+_building setVariable ["locked",false,true];
 
 if (life_HC_isActive) then {
     [getPlayerUID player,profileName,"459"] remoteExecCall ["HC_fnc_wantedAdd",HC_Life];
