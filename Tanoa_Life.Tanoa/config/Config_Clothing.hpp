@@ -125,48 +125,40 @@ class Clothing {
         side = "cop";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
-            { "U_Rangemaster", "Cop Uniform", 25, { "", "", -1 } },
-            { "U_B_CombatUniform_mcam_tshirt", "", 350, { "life_coplevel", "SCALAR", 1 } },
-            { "U_B_CombatUniform_mcam_worn", "", 550, { "life_coplevel", "SCALAR", 2 } },
-            { "U_B_survival_uniform", "", 1250, { "life_coplevel", "SCALAR", 1 } }
+            { "U_Rangemaster", "Cadet Uniform", 200, { "", "", -1 } },
+            { "U_B_GEN_Soldier_F", "Officer Uniform", 500, { "life_coplevel", "SCALAR", 1 } },
+            { "U_B_GEN_Commander_F", "NCO Uniform", 1000, { "life_coplevel", "SCALAR", 2 } },
+            { "U_B_survival_uniform", "Diving Gear", 1250, { "life_coplevel", "SCALAR", 1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
-            { "H_Cap_police", "", 25, { "", "", -1 } },
-            { "H_Beret_blk_POLICE", "", 50, { "life_coplevel", "SCALAR", 2 } },
-            { "H_HelmetB_plain_mcamo", "", 75, { "life_coplevel", "SCALAR", 1 } },
-            { "H_MilCap_mcamo", "", 100, { "life_coplevel", "SCALAR", 2 } },
-            { "H_Booniehat_mcamo", "", 120, { "life_coplevel", "SCALAR", 1 } }
+            { "H_Cap_police", "Cadet Cap", 50, { "", "", -1 } },
+            { "H_Beret_blk_POLICE", "Officer Beret", 100, { "life_coplevel", "SCALAR", 1 } },
+			{ "H_Beret_gen_F", "NCO Beret", 100, { "life_coplevel", "SCALAR", 2 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
-            { "G_Squares", "", 10, { "", "", -1 } },
-            { "G_Shades_Blue", "", 20, { "", "", -1 } },
-            { "G_Sport_Blackred", "", 20, { "", "", -1 } },
-            { "G_Sport_Checkered", "", 20, { "", "", -1 } },
-            { "G_Sport_Blackyellow", "", 20, { "", "", -1 } },
-            { "G_Sport_BlackWhite", "", 20, { "", "", -1 } },
-            { "G_Shades_Black", "", 25, { "", "", -1 } },
-            { "G_Lowprofile", "", 30, { "", "", -1 } },
-            { "G_Combat", "", 55, { "", "", -1 } },
-            { "G_Aviator", "", 100, { "", "", -1 } },
-            { "G_Lady_Mirror", "", 150, { "", "", -1 } },
-            { "G_Lady_Dark", "", 150, { "", "", -1 } },
-            { "G_Lady_Blue", "", 150, { "", "", -1 } }
+            { "G_Squares", "", 50, { "", "", -1 } },
+            { "G_Shades_Blue", "", 50, { "", "", -1 } },
+            { "G_Sport_Blackred", "", 50, { "", "", -1 } },
+            { "G_Sport_Checkered", "", 50, { "", "", -1 } },
+            { "G_Sport_Blackyellow", "", 50, { "", "", -1 } },
+            { "G_Sport_BlackWhite", "", 50, { "", "", -1 } },
+            { "G_Shades_Black", "", 50, { "", "", -1 } },
+            { "G_Lowprofile", "", 100, { "life_coplevel", "SCALAR", 1 } },
+            { "G_Combat", "", 100, { "life_coplevel", "SCALAR", 1 } },
+            { "G_Aviator", "", 500, { "life_coplevel", "SCALAR", 1 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
-            { "V_Rangemaster_belt", "", 800, { "", "", -1 } },
-            { "V_TacVest_blk_POLICE", "", 1000, { "life_coplevel", "SCALAR", 1 } },
-            { "V_PlateCarrier2_rgr", "", 1500, { "life_coplevel", "SCALAR", 2 } }
+            { "V_Rangemaster_belt", "", 1000, { "", "", -1 } },
+            { "V_PlateCarrier1_blk", "", 1500, { "life_coplevel", "SCALAR", 1 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
-            { "B_FieldPack_cbr", "", 500, { "", "", -1 } },
-            { "B_AssaultPack_cbr", "", 700, { "", "", -1 } },
-            { "B_Kitbag_cbr", "", 800, { "", "", -1 } },
-            { "B_Bergen_sgg", "", 2500, { "", "", -1 } },
-            { "B_Carryall_cbr", "", 3500, { "", "", -1 } }
+            { "B_FieldPack_blk", "Cadet Backpack", 500, { "", "", -1 } },
+            { "B_ViperLightHarness_blk_F", "Officer Backpack", 1000, { "life_coplevel", "SCALAR", 1 } },
+            { "B_ViperHarness_blk_F", "NCO Backpack", 2000, { "life_coplevel", "SCALAR", 2 } }
         };
     };
 

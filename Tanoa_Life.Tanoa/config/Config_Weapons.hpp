@@ -153,15 +153,13 @@ class WeaponShops {
         items[] = {
             { "arifle_sdar_F", "Taser Rifle", 20000, 7500 },
             { "hgun_P07_snds_F", "Stun Pistol", 2000, 650 },
-            { "hgun_P07_F", "", 7500, 1500 },
-            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "Binocular", "", 150, -1 },
             { "ItemGPS", "", 100, 45 },
             { "FirstAidKit", "", 150, 65 },
-            { "NVGoggles", "", 2000, 980 }
+            { "NVGoggles_OPFOR", "", 2000, 980 }
         };
         mags[] = {
-            { "16Rnd_9x21_Mag", "", 25 },
+            { "16Rnd_9x21_Mag", "Stun Pistol Magazine", 25 },
             { "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 45 }
         };
         accs[] = {
@@ -173,9 +171,9 @@ class WeaponShops {
         name = "Altis Patrol Officer Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 2, "You must be a Patrol Officer Rank!" };
+        level[] = { "life_coplevel", "SCALAR", 1, "You must be a Patrol Officer Rank!" };
         items[] = {
-            { "arifle_MX_F", "", 35000, 7500 },
+            { "arifle_MX_F", "", 25000, 7500 },
             { "SMG_02_ACO_F", "", 30000, -1 },
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "acc_flashlight", "", 750, 100 },
@@ -199,11 +197,12 @@ class WeaponShops {
         name = "Altis Sergeant Officer Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 3, "You must be a Sergeant Rank!" };
+        level[] = { "life_coplevel", "SCALAR", 2, "You must be a Sergeant Rank!" };
         items[] = {
-            { "hgun_ACPC2_F", "", 17500, -1 },
-            { "SMG_02_ACO_F", "", 15000, -1 },
-            { "arifle_MXC_F", "", 30000, 5000 },
+            { "arifle_ARX_blk_F", "", 30000, 9000 },
+            { "srifle_DMR_07_blk_F", "", 50000, 20000 },
+			{ "arifle_MXC_Black_F", "", 25000, 10000 },
+            { "arifle_MXC_khk_F", "", 25000, 10000 },
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "optic_Arco", "", 2500, -1 },
             { "muzzle_snds_H", "", 2750, -1 }

@@ -4,7 +4,6 @@ disableChannels[]={{0,true,true},{1,true,true},{2,true,true}};    // Disabled te
 #include "CfgRemoteExec.hpp"
 #include "dialog\MasterHandler.hpp"
 #include "config\Config_Master.hpp"
-#include "infiSTAR_AdminMenu.hpp"
 
 class CfgServer {
     DatabaseName = "altislife"; //Config name that'll be grep in the extdb-conf.ini. Default: [altislife]
@@ -171,3 +170,5 @@ class CfgNotifications {
         priority = 5;
     };
 };
+
+#include "infiSTAR_AdminMenu.hpp"
