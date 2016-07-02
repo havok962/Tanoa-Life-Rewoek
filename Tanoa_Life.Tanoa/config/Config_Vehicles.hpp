@@ -18,6 +18,7 @@ class CarShops {
             { "B_Quadbike_01_F", { "", "", -1 } },
             { "C_Hatchback_01_F", { "", "", -1 } },
             { "C_Offroad_01_F", { "", "", -1 } },
+			{ "C_Offroad_02_unarmed_F", { "", "", -1 } },
             { "C_SUV_01_F", { "", "", -1 } },
             { "C_Hatchback_01_sport_F", { "", "", -1 } },
             { "C_Van_01_transport_F", { "", "", -1 } }
@@ -56,7 +57,8 @@ class CarShops {
         vehicles[] = {
             { "C_Heli_Light_01_civil_F", { "", "", -1 } },
             { "B_Heli_Light_01_F", { "", "", -1 } },
-            { "O_Heli_Light_02_unarmed_F", { "", "", -1 } }
+            { "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
+			{ "C_Plane_Civil_01_F", { "", "", -1 } }
         };
     };
 
@@ -65,6 +67,7 @@ class CarShops {
         vehicles[] = {
             { "C_Rubberboat", { "", "", -1 } },
             { "C_Boat_Civil_01_F", { "", "", -1 } },
+			{ "C_Scooter_Transport_01_F", { "", "", -1 } },
             { "B_SDV_01_F", { "", "", -1 } }
         };
     };
@@ -84,6 +87,7 @@ class CarShops {
         side = "med";
         vehicles[] = {
             { "C_Offroad_01_F", { "", "", -1 } },
+			{ "C_SUV_01_F", { "", "", -1 } },
             { "I_Truck_02_medical_F", { "", "", -1 } },
             { "O_Truck_03_medical_F", { "", "", -1 } },
             { "B_Truck_01_medical_F", { "", "", -1 } }
@@ -104,8 +108,7 @@ class CarShops {
             { "C_Offroad_01_F", { "", "", -1 } },
             { "C_SUV_01_F", { "", "", -1 } },
             { "C_Hatchback_01_sport_F", { "life_coplevel", "SCALAR", 1 } },
-            { "B_MRAP_01_F", { "life_coplevel", "SCALAR", 2 } },
-            { "B_MRAP_01_hmg_F", { "life_coplevel", "SCALAR", 3 } }
+            { "B_MRAP_01_F", { "life_coplevel", "SCALAR", 2 } }
         };
     };
 
@@ -267,6 +270,13 @@ class LifeCfgVehicles {
         textures[] = { };
     };
 
+    class C_Offroad_02_unarmed_F {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 12500;
+        textures[] = { };
+    };
+
     class B_G_Offroad_01_armed_F {
         vItemSpace = 65;
         licenses[] = { {"rebel"}, {""}, {""}, {""} };
@@ -278,6 +288,13 @@ class LifeCfgVehicles {
         vItemSpace = 85;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
         price = 22000;
+        textures[] = { };
+    };
+
+    class C_Scooter_Transport_01_F {
+        vItemSpace = 40;
+        licenses[] = { {"boat"}, {""}, {""}, {""} };
+        price = 20000;
         textures[] = { };
     };
 
@@ -628,6 +645,13 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 245000;
     };
 
+    class C_Plane_Civil_01_F {
+        vItemSpace = 100;
+		licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 300000;
+		textures[] = {};
+    };
+	
     class O_Heli_Light_02_unarmed_F {
         vItemSpace = 210;
         licenses[] = { {"pilot" }, {""}, {"mAir"}, {""} };

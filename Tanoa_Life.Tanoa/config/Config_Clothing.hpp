@@ -19,20 +19,23 @@ class Clothing {
         side = "civ";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
-            { "U_C_Poloshirt_stripped", "Poloshirt stripped", 125, { "", "", -1 } },
-            { "U_C_Poloshirt_redwhite", "Poloshirt Red/White", 150, { "", "", -1 } },
-            { "U_C_Poloshirt_salmon", "Poloshirt Salmon", 175, { "", "", -1 } },
-            { "U_C_Poloshirt_blue", "Poloshirt Blue", 250, { "", "", -1 } },
-            { "U_C_Poor_2", "Rag tagged clothes", 250, { "", "", -1 } },
-            { "U_C_Poloshirt_burgundy", "Poloshirt Burgundy", 275, { "", "", -1 } },
-            { "U_C_Poloshirt_tricolour", "Poloshirt Tricolor", 350, { "", "", -1 } },
-            { "U_IG_Guerilla2_2", "Green stripped shirt & Pants", 650, { "", "", -1 } },
-            { "U_IG_Guerilla3_1", "Brown Jacket & Pants", 735, { "", "", -1 } },
-            { "U_OrestesBody", "Surfing On Land", 1100, { "", "", -1 } },
-            { "U_IG_Guerilla2_3", "The Outback Rangler", 1200, { "", "", -1 } },
-            { "U_C_HunterBody_grn", "The Hunters Look", 1500, { "", "", -1 } },
+            { "U_C_Poor_2", "Poor Clothes", 250, { "", "", -1 } },			
+            { "U_C_man_casual_1_F", "Poloshirt Blue Stripped", 300, { "", "", -1 } },
+            { "U_C_man_casual_2_F", "Poloshirt Blue", 300, { "", "", -1 } },
+            { "U_C_man_casual_3_F", "Poloshirt Green Stripped", 300, { "", "", -1 } },
+            { "U_C_man_casual_4_F", "T-Shirt Blue", 300, { "", "", -1 } },
+            { "U_C_man_casual_5_F", "T-Shirt Yellow", 300, { "", "", -1 } },
+            { "U_C_man_casual_6_F", "T-Shirt Red", 300, { "", "", -1 } },
+            { "U_C_man_sport_1_F", "Sportswear Black/Blue", 1000, { "", "", -1 } },
+            { "U_C_man_sport_2_F", "Sportswear Black/Orange", 1000, { "", "", -1 } },
+            { "U_C_man_sport_3_F", "Sportswear Blue", 1000, { "", "", -1 } },			
+            { "U_IG_Guerilla2_2", "Green stripped shirt & Pants", 2000, { "", "", -1 } },
+            { "U_IG_Guerilla3_1", "Brown Jacket & Pants", 2000, { "", "", -1 } },
+            { "U_OrestesBody", "Surfing On Land", 2000, { "", "", -1 } },
+            { "U_IG_Guerilla2_3", "The Outback Rangler", 2500, { "", "", -1 } },
+            { "U_C_HunterBody_grn", "The Hunters Look", 2500, { "", "", -1 } },
             { "U_C_WorkerCoveralls", "Mechanic Coveralls", 2500, { "", "", -1 } },
-            { "U_NikosAgedBody", "Casual Wears", 5000, { "", "", -1 } }
+            { "U_NikosAgedBody", "Pink Shirt & Tie", 5000, { "", "", -1 } }		
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
@@ -56,7 +59,9 @@ class Clothing {
             { "H_BandMask_blk", "Hat & Bandanna", 300, { "", "", -1 } },
             { "H_Hat_blue", "", 310, { "", "", -1 } },
             { "H_Hat_checker", "", 340, { "", "", -1 } },
-            { "H_Booniehat_tan", "", 425, { "", "", -1 } }
+            { "H_Booniehat_tna_F", "Tropic Boonie", 425, { "", "", -1 } },			
+            { "H_Booniehat_tan", "Tan Boonie", 425, { "", "", -1 } },
+            { "H_Helmet_Skate", "Skateboard Helmet", 1000, { "", "", -1 } }			
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
@@ -91,6 +96,7 @@ class Clothing {
             { "B_AssaultPack_blk", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_cbr", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_mcamo", "", 2000, { "", "", -1 } },
+            { "B_AssaultPack_tna_F", "", 2000, { "", "", -1 } },			
             { "B_TacticalPack_oli", "", 2500, { "", "", -1 } },
             { "B_Kitbag_mcamo", "", 3500, { "", "", -1 } },
             { "B_Kitbag_sgg", "", 3500, { "", "", -1 } },
@@ -98,6 +104,7 @@ class Clothing {
             { "B_FieldPack_blk", "", 5000, { "", "", -1 } },
             { "B_FieldPack_ocamo", "", 5000, { "", "", -1 } },
             { "B_FieldPack_oucamo", "", 5000, { "", "", -1 } },
+            { "B_FieldPack_ghex_F", "", 5000, { "", "", -1 } },			
             { "B_Bergen_sgg", "", 6500, { "", "", -1 } },
             { "B_Bergen_mcamo", "", 6500, { "", "", -1 } },
             { "B_Bergen_rgr", "", 6500, { "", "", -1 } },
@@ -107,6 +114,7 @@ class Clothing {
             { "B_Carryall_mcamo", "", 7500, { "", "", -1 } },
             { "B_Carryall_oli", "", 7500, { "", "", -1 } },
             { "B_Carryall_khk", "", 7500, { "", "", -1 } },
+            { "B_Carryall_ghex_f", "", 7500, { "", "", -1 } },			
             { "B_Carryall_cbr", "", 7500, { "", "", -1 } }
         };
     };
@@ -201,7 +209,7 @@ class Clothing {
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
-            { "V_Rangemaster_belt", "", 4900, { "", "", -1 } }
+            { "V_Rangemaster_belt", "", 5000, { "", "", -1 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } }
@@ -213,7 +221,12 @@ class Clothing {
         license = "";
         side = "civ";
         uniforms[] = {
-            { "NONE", "Remove Uniform", 0, { "", "", -1 } }
+            { "NONE", "Remove Uniform", 0, { "", "", -1 } },
+			{ "U_I_C_Soldier_Bandit_1_F", "", 4500, { "", "", -1 } },
+			{ "U_I_C_Soldier_Bandit_2_F", "", 4500, { "", "", -1 } },
+			{ "U_I_C_Soldier_Bandit_3_F", "", 4500, { "", "", -1 } },
+			{ "U_I_C_Soldier_Bandit_4_F", "", 4500, { "", "", -1 } },
+			{ "U_I_C_Soldier_Bandit_5_F", "", 4500, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } }
@@ -223,10 +236,21 @@ class Clothing {
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
-            { "V_Rangemaster_belt", "", 1900, { "", "", -1 } }
+            { "V_TacChestrig_cbr_F", "", 6000, { "", "", -1 } },
+			{ "V_TacChestrig_grn_F", "", 6000, { "", "", -1 } },
+			{ "V_TacChestrig_oli_F", "", 6000, { "", "", -1 } },
+			{ "V_PlateCarrier1_tna_F", "", 10000, { "", "", -1 } }
         };
         backpacks[] = {
-            { "NONE", "Remove Backpack", 0, { "", "", -1 } }
+            { "NONE", "Remove Backpack", 0, { "", "", -1 } },
+			{ "B_ViperLightHarness_blk_F", "", 6500, { "", "", -1 } },
+			{ "B_ViperLightHarness_oli_F", "", 6500, { "", "", -1 } },
+			{ "B_ViperLightHarness_khk_F", "", 6500, { "", "", -1 } },
+			{ "B_ViperLightHarness_ghex_F", "", 6500, { "", "", -1 } },
+			{ "B_ViperHarness_blk_F", "", 7000, { "", "", -1 } },
+			{ "B_ViperHarness_oli_F", "", 7000, { "", "", -1 } },
+			{ "B_ViperHarness_khk_F", "", 7000, { "", "", -1 } },
+			{ "B_ViperHarness_ghex_F", "", 7000, { "", "", -1 } }
         };
     };
 

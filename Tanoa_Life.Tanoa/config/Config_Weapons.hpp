@@ -22,19 +22,20 @@ class WeaponShops {
         license = "gun";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "hgun_Rook40_F", "", 6500, 500 },
-            { "hgun_Pistol_heavy_02_F", "", 9850, -1 },
+            { "hgun_Rook40_F", "", 7000, 500 },
+            { "hgun_Pistol_heavy_02_F", "", 10000, -1 },
             { "hgun_ACPC2_F", "", 11500, -1 },
-            { "hgun_PDW2000_F", "", 20000, -1 }
+            { "hgun_PDW2000_F", "", 25000, -1 }
         };
         mags[] = {
-            { "16Rnd_9x21_Mag", "", 25 },
-            { "6Rnd_45ACP_Cylinder", "", 50 },
-            { "9Rnd_45ACP_Mag", "", 45 },
-            { "30Rnd_9x21_Mag", "", 75 }
+            { "16Rnd_9x21_Mag", "", 50 },
+            { "6Rnd_45ACP_Cylinder", "", 100 },
+            { "9Rnd_45ACP_Mag", "", 110 },
+            { "30Rnd_9x21_Mag", "", 200 }
         };
         accs[] = {
-            { "optic_ACO_grn_smg", "", 2500 }
+            { "optic_ACO_grn_smg", "", 3000 },
+			{ "optic_ACO_smg", "", 3000 }			
         };
     };
 
@@ -69,19 +70,32 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "hgun_Rook40_F", "", 1500, 500 },
-            { "hgun_Pistol_heavy_02_F", "", 2500, -1 },
+            { "hgun_Rook40_F", "", 6000, 500 },
+            { "hgun_Pistol_heavy_02_F", "", 8000, -1 },
             { "hgun_ACPC2_F", "", 4500, -1 },
-            { "hgun_PDW2000_F", "", 9500, -1 }
+            { "hgun_Pistol_01_F", "", 4500, -1 },			
+            { "hgun_PDW2000_F", "", 22500, -1 },
+            { "SMG_05_F", "", 30000, -1 },
+            { "arifle_AKS_F", "", 50000, -1 },			
+            { "arifle_SPAR_01_blk_F", "", 60000, -1 },
+            { "arifle_SPAR_01_khk_F", "", 60000, -1 },
+            { "arifle_SPAR_01_snd_F", "", 60000, -1 }			
         };
         mags[] = {
-            { "16Rnd_9x21_Mag", "", 25 },
-            { "6Rnd_45ACP_Cylinder", "", 50 },
-            { "9Rnd_45ACP_Mag", "", 45 },
-            { "30Rnd_9x21_Mag", "", 75 }
+            { "16Rnd_9x21_Mag", "", 50 },
+            { "6Rnd_45ACP_Cylinder", "", 100 },
+            { "9Rnd_45ACP_Mag", "", 110 },
+            { "30Rnd_9x21_Mag", "", 200 },
+			{ "30Rnd_9x21_Mag_SMG_02", "", 300 },
+			{ "30Rnd_545x39_Mag_F", "", 350 },
+			{ "30Rnd_556x45_Stanag", "", 500 }
         };
         accs[] = {
-            { "optic_ACO_grn_smg", "", 950 }
+            { "optic_Holosight_blk_F", "", 15000 },
+			{ "optic_Holosight_khk_F", "", 15000 },
+			{ "optic_ERCO_blk_F", "", 30000 },
+			{ "optic_ERCO_khk_F", "", 30000 }
+			
         };
     };
 
