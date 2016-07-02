@@ -226,7 +226,12 @@ class Clothing {
 			{ "U_I_C_Soldier_Bandit_2_F", "", 4500, { "", "", -1 } },
 			{ "U_I_C_Soldier_Bandit_3_F", "", 4500, { "", "", -1 } },
 			{ "U_I_C_Soldier_Bandit_4_F", "", 4500, { "", "", -1 } },
-			{ "U_I_C_Soldier_Bandit_5_F", "", 4500, { "", "", -1 } }
+			{ "U_I_C_Soldier_Bandit_5_F", "", 4500, { "", "", -1 } },
+			{ "U_I_C_Soldier_Para_1_F", "", 6000, { "", "", -1 } },
+			{ "U_I_C_Soldier_Para_2_F", "", 6000, { "", "", -1 } },
+			{ "U_I_C_Soldier_Para_3_F", "", 6000, { "", "", -1 } },
+			{ "U_I_C_Soldier_Para_4_F", "", 6000, { "", "", -1 } },
+			{ "U_I_C_Soldier_Para_5_F", "", 6000, { "", "", -1 } },
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } }
@@ -243,14 +248,9 @@ class Clothing {
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
-			{ "B_ViperLightHarness_blk_F", "", 6500, { "", "", -1 } },
-			{ "B_ViperLightHarness_oli_F", "", 6500, { "", "", -1 } },
-			{ "B_ViperLightHarness_khk_F", "", 6500, { "", "", -1 } },
-			{ "B_ViperLightHarness_ghex_F", "", 6500, { "", "", -1 } },
-			{ "B_ViperHarness_blk_F", "", 7000, { "", "", -1 } },
-			{ "B_ViperHarness_oli_F", "", 7000, { "", "", -1 } },
-			{ "B_ViperHarness_khk_F", "", 7000, { "", "", -1 } },
-			{ "B_ViperHarness_ghex_F", "", 7000, { "", "", -1 } }
+			{ "B_Carryall_oli", "", 7000, { "", "", -1 } },
+			{ "B_Carryall_cbr", "", 7000, { "", "", -1 } },
+			{ "B_Carryall_ghex_f", "", 7000, { "", "", -1 } },
         };
     };
 
