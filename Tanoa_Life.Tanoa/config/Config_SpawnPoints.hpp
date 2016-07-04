@@ -111,7 +111,7 @@ class CfgSpawnPoints {
         };
 
         class CoastguardN {
-            displayName = "Coastguard North";
+            displayName = "Police Air HQ";
             spawnMarker = "cop_spawn_7";
             icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
             licenses[] = { { "", true } };

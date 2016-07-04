@@ -5475,7 +5475,7 @@
             <Polish>Dzwięk został ustawiony w tryb wyciszony!</Polish>
         </Key>
         <Key ID="STR_MISC_overviewText">
-            <Original>An RPG game mode developed by Tonic.</Original>
+            <Original>Based on the RPG game mode developed by Tonic.</Original>
             <Czech>Mód RPG hra vyvinutá Tonic.</Czech>
             <French>Un mode de jeu de RPG développé par Tonic.</French>
             <Spanish>Un modo de juego de rol desarrollado por Tonic.</Spanish>
@@ -5966,27 +5966,27 @@
             <Portuguese>Maconha não Processada</Portuguese>
             <Polish>Konopie</Polish>
         </Key>
-        <Key ID="STR_Item_Apple">
-            <Original>Apple</Original>
-            <Czech>Jablko</Czech>
-            <Spanish>Manzana</Spanish>
+        <Key ID="STR_Item_Coconut">
+            <Original>Coconut</Original>
+            <Czech>Kokos</Czech>
+            <Spanish>Coco</Spanish>
             <Russian></Russian>
-            <German>Apfel</German>
-            <French>Pomme</French>
-            <Italian>Mela</Italian>
-            <Portuguese>Maçã</Portuguese>
-            <Polish>Jabłko</Polish>
+            <German>KOkos</German>
+            <French>Une noix de coco</French>
+            <Italian>Cocco</Italian>
+            <Portuguese>Coco</Portuguese>
+            <Polish>Kokos</Polish>
         </Key>
-        <Key ID="STR_Item_Apples">
-            <Original>Apples</Original>
-            <Czech>jablka</Czech>
-            <Spanish>Manzanas</Spanish>
+        <Key ID="STR_Item_Coconuts">
+            <Original>Coconuts</Original>
+            <Czech>Kokosové ořechy</Czech>
+            <Spanish>Cocos</Spanish>
             <Russian></Russian>
-            <German>Äpfel</German>
-            <French>Pommes</French>
-            <Italian>Mele</Italian>
-            <Portuguese>Maçãs</Portuguese>
-            <Polish>Jabłka</Polish>
+            <German>Kokosnüsse</German>
+            <French>Noix de coco</French>
+            <Italian>Noci di cocco</Italian>
+            <Portuguese>Cocos</Portuguese>
+            <Polish>Orzechy kokosowe</Polish>
         </Key>
         <Key ID="STR_Item_Heroin">
             <Original>Heroin</Original>
@@ -6010,27 +6010,27 @@
             <Portuguese>Petróleo</Portuguese>
             <Polish>Benzyna</Polish>
         </Key>
-        <Key ID="STR_Item_Peach">
-            <Original>Peach</Original>
-            <Czech>Broskev</Czech>
-            <Spanish>Melocotón</Spanish>
+        <Key ID="STR_Item_Banana">
+            <Original>Banana</Original>
+            <Czech>Banán</Czech>
+            <Spanish>Plátano</Spanish>
             <Russian></Russian>
-            <German>Pfirsich</German>
-            <French>Pêche</French>
-            <Italian>Pesca</Italian>
-            <Portuguese>Pêssego</Portuguese>
-            <Polish>Brzoskwinia</Polish>
+            <German>Banane</German>
+            <French>Banane</French>
+            <Italian>Banana</Italian>
+            <Portuguese>Banana</Portuguese>
+            <Polish>Banan</Polish>
         </Key>
-        <Key ID="STR_Item_Peaches">
-            <Original>Peaches</Original>
-            <Czech>broskve</Czech>
-            <Spanish>Melocotones</Spanish>
+        <Key ID="STR_Item_Bananas">
+            <Original>Bananas</Original>
+            <Czech>Banány</Czech>
+            <Spanish>Platanos</Spanish>
             <Russian></Russian>
-            <German>Pfirsiche</German>
-            <French>Pêches</French>
-            <Italian>Pesche</Italian>
-            <Portuguese>Pêssegos</Portuguese>
-            <Polish>Brzoskwinie</Polish>
+            <German>Bananen</German>
+            <French>Bananes</French>
+            <Italian>Banane</Italian>
+            <Portuguese>Bananas</Portuguese>
+            <Polish>Banany</Polish>
         </Key>
         <Key ID="STR_Item_OilU">
             <Original>Crude Oil</Original>

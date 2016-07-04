@@ -41,7 +41,6 @@ class Clothing {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
             { "H_Bandanna_camo", "Camo Bandanna", 120, { "", "", -1 } },
             { "H_Bandanna_surfer", "Surfer Bandanna", 130, { "", "", -1 } },
-            { "H_Bandanna_surfer", "", 135, { "", "", -1 } },
             { "H_Bandanna_khk", "Khaki Bandanna", 145, { "", "", -1 } },
             { "H_Cap_blu", "", 150, { "", "", -1 } },
             { "H_Cap_grn", "", 150, { "", "", -1 } },
@@ -226,10 +225,14 @@ class Clothing {
 			{ "U_I_C_Soldier_Para_5_F", "", 6000, { "", "", -1 } },
         };
         headgear[] = {
-            { "NONE", "Remove Hat", 0, { "", "", -1 } }
+            { "NONE", "Remove Hat", 0, { "", "", -1 } },
+			{ "H_Shemag_olive", "", 2000, { "", "", -1 } },
+			{ "H_Shemag_tan", "", 2000, { "", "", -1 } }
         };
         goggles[] = {
-            { "NONE", "Remove Glasses", 0, { "", "", -1 } }
+            { "NONE", "Remove Glasses", 0, { "", "", -1 } },
+			{ "G_Balaclava_blk", "", 2000, { "", "", -1 } },
+			{ "G_Balaclava_oli", "", 2000, { "", "", -1 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
