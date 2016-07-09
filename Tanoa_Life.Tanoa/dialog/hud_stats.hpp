@@ -21,7 +21,8 @@ class playerHUD {
         Life_RscProgress_HUDWater,
         Life_RscText_HUDFood,
         Life_RscText_HUDHealth,
-        Life_RscText_HUDWater
+        Life_RscText_HUDWater,
+		Life_RscText_Bounty
     };
 
     /* Background */
@@ -84,5 +85,11 @@ class playerHUD {
         idc = 1202;
         text = "$STR_HUD_Water";
         x = 0.534723 * safezoneW + safezoneX;
+    };
+	
+	class Life_RscText_Bounty : Life_RscText_HUDCommon {
+        idc = 1203;
+        text = "";
+        x = 0.592594 * safezoneW + safezoneX;
     };
 };

@@ -17,9 +17,8 @@ if (life_blacklisted) exitWith {
 };
 
 if((FETCH_CONST(life_coplevel) == 0) && (FETCH_CONST(life_adminlevel) == 0)) then {
-       ["NotWhitelisted",false,true] call BIS_fnc_endMission;
-       sleep 35;
-    };
+	["NotWhitelisted",false,true] call BIS_fnc_endMission;
+	sleep 35;
 };
 
 

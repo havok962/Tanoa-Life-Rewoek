@@ -76,6 +76,7 @@ class CfgRemoteExec {
         F(DB_fnc_updatePartial,SERVER)
         F(DB_fnc_updateRequest,SERVER)
         F(life_fnc_jailSys,SERVER)
+		F(life_fnc_getBounty,SERVER)
         F(life_fnc_wantedAdd,SERVER)
         F(life_fnc_wantedBounty,SERVER)
         F(life_fnc_wantedCrimes,SERVER)

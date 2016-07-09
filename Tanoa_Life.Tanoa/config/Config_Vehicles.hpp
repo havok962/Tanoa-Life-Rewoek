@@ -108,7 +108,8 @@ class CarShops {
             { "C_Offroad_01_F", { "", "", -1 } },
             { "C_SUV_01_F", { "", "", -1 } },
             { "C_Hatchback_01_sport_F", { "life_coplevel", "SCALAR", 1 } },
-            { "B_MRAP_01_F", { "life_coplevel", "SCALAR", 2 } }
+            { "B_MRAP_01_F", { "life_coplevel", "SCALAR", 2 } },
+			{ "B_T_LSV_01_unarmed_F", { "life_coplevel", "SCALAR", 3 } }
         };
     };
 
@@ -200,6 +201,13 @@ class LifeCfgVehicles {
         price = 200000;
         textures[] = {};
     };
+	
+    class B_T_LSV_01_unarmed_F {
+        vItemSpace = 50;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 300000;
+        textures[] = {};
+    };	
 
     class B_MRAP_01_hmg_F {
         vItemSpace = 100;

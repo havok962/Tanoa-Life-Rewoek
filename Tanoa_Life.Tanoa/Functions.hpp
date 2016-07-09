@@ -181,6 +181,7 @@ class Life_Client_Core {
         class hideObj {};
         class hudSetup {};
         class hudUpdate {};
+		class hudUpdateWanted {};
         class inventoryClosed {};
         class inventoryOpened {};
         class isUIDActive {};

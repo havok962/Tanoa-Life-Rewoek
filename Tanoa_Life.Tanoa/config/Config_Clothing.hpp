@@ -125,15 +125,15 @@ class Clothing {
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
             { "U_Rangemaster", "Cadet Uniform", 200, { "", "", -1 } },
-            { "U_B_GEN_Soldier_F", "Officer Uniform", 500, { "life_coplevel", "SCALAR", 1 } },
-            { "U_B_GEN_Commander_F", "NCO Uniform", 1000, { "life_coplevel", "SCALAR", 2 } },
-            { "U_B_survival_uniform", "Diving Gear", 1250, { "life_coplevel", "SCALAR", 1 } }
+            { "U_B_GEN_Soldier_F", "Officer Uniform", 500, { "life_coplevel", "SCALAR", 2 } },
+            { "U_B_GEN_Commander_F", "NCO Uniform", 1000, { "life_coplevel", "SCALAR", 3 } },
+            { "U_B_survival_uniform", "Diving Gear", 1250, { "life_coplevel", "SCALAR", 2 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
             { "H_Cap_police", "Cadet Cap", 50, { "", "", -1 } },
-            { "H_Beret_blk_POLICE", "Officer Beret", 100, { "life_coplevel", "SCALAR", 1 } },
-			{ "H_Beret_gen_F", "NCO Beret", 100, { "life_coplevel", "SCALAR", 2 } }
+            { "H_Beret_blk_POLICE", "Officer Beret", 100, { "life_coplevel", "SCALAR", 2 } },
+			{ "H_Beret_gen_F", "NCO Beret", 100, { "life_coplevel", "SCALAR", 3 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
@@ -144,20 +144,20 @@ class Clothing {
             { "G_Sport_Blackyellow", "", 50, { "", "", -1 } },
             { "G_Sport_BlackWhite", "", 50, { "", "", -1 } },
             { "G_Shades_Black", "", 50, { "", "", -1 } },
-            { "G_Lowprofile", "", 100, { "life_coplevel", "SCALAR", 1 } },
-            { "G_Combat", "", 100, { "life_coplevel", "SCALAR", 1 } },
-            { "G_Aviator", "", 500, { "life_coplevel", "SCALAR", 1 } }
+            { "G_Lowprofile", "", 100, { "life_coplevel", "SCALAR", 2 } },
+            { "G_Combat", "", 100, { "life_coplevel", "SCALAR", 2 } },
+            { "G_Aviator", "", 500, { "life_coplevel", "SCALAR", 3 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
             { "V_Rangemaster_belt", "", 1000, { "", "", -1 } },
-            { "V_PlateCarrier1_blk", "", 1500, { "life_coplevel", "SCALAR", 1 } }
+            { "V_PlateCarrier1_blk", "", 1500, { "life_coplevel", "SCALAR", 2 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
             { "B_FieldPack_blk", "Cadet Backpack", 500, { "", "", -1 } },
-            { "B_ViperLightHarness_blk_F", "Officer Backpack", 1000, { "life_coplevel", "SCALAR", 1 } },
-            { "B_ViperHarness_blk_F", "NCO Backpack", 2000, { "life_coplevel", "SCALAR", 2 } }
+            { "B_ViperLightHarness_blk_F", "Officer Backpack", 1000, { "life_coplevel", "SCALAR", 2 } },
+            { "B_ViperHarness_blk_F", "NCO Backpack", 2000, { "life_coplevel", "SCALAR", 3 } }
         };
     };
 

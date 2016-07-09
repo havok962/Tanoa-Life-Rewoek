@@ -91,7 +91,7 @@ class CfgSpawnPoints {
             spawnMarker = "cop_spawn_4";
             icon = "\a3\ui_f\data\map\Markers\NATO\b_air.paa";
             licenses[] = { { "cAir", true } };
-            level[] = { "life_coplevel", "SCALAR", 2 };
+            level[] = { "life_coplevel", "SCALAR", 1 };
         };
 
         class CoastguardS {
@@ -99,7 +99,7 @@ class CfgSpawnPoints {
             spawnMarker = "cop_spawn_5";
             icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
             licenses[] = { { "", true } };
-            level[] = { "life_coplevel", "SCALAR", 3 };
+            level[] = { "life_coplevel", "SCALAR", 1 };
         };
 
         class CoastguardW {
@@ -107,7 +107,7 @@ class CfgSpawnPoints {
             spawnMarker = "cop_spawn_6";
             icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
             licenses[] = { { "", true } };
-            level[] = { "life_coplevel", "SCALAR", 3 };
+            level[] = { "life_coplevel", "SCALAR", 1 };
         };
 
         class CoastguardN {
@@ -115,7 +115,7 @@ class CfgSpawnPoints {
             spawnMarker = "cop_spawn_7";
             icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
             licenses[] = { { "", true } };
-            level[] = { "life_coplevel", "SCALAR", 3 };
+            level[] = { "life_coplevel", "SCALAR", 1 };
         };
     };
 

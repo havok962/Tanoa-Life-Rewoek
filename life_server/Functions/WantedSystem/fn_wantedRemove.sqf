@@ -14,3 +14,15 @@ if (_uid isEqualTo "") exitWith {}; //Bad data
 
 _query = format["UPDATE wanted SET active = '0', wantedCrimes = '[]', wantedBounty = 0 WHERE wantedID='%1'",_uid];
 [_query,2] call DB_fnc_asyncCall;
+
+_IFoundYou = ObjNull;
+
+{
+    if(getPlayerUid _x isEqualTo _uid) then
+    {
+        _IFoundYou = _x;
+    };
+} foreach allPlayers;
+
+myBounty = -1;
+(owner _IFoundYou) publicVariableClient "myBounty";
