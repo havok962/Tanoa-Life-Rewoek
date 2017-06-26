@@ -1,4 +1,4 @@
-<h1 align="center">Untitled Gaming Tanoa Life Build</h1>
+<h1 align="center">Tanoa Life Rework Build</h1>
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/version-v0.1.5-9341d9.svg?style=flat-square" alt="Untitled Gaming Life Version"></a>
